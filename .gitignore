@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment variables (SECRETS - kabhi upload mat karo)
+.env
+
+# Database
+test.db
+*.db
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
