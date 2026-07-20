@@ -12,11 +12,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# Tables create karega agar exist nahi karte (SQLite/local testing ke liye)
+
 Base.metadata.create_all(bind=engine)
 
 app.include_router(linkedin_router)
-
 
 @app.get("/")
 def root():
