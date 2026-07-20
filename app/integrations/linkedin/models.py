@@ -1,7 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime
 from app.database import Base
 
-
 class LinkedInAccount(Base):
     __tablename__ = "linkedin_accounts"
 
