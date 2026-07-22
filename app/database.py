@@ -5,7 +5,6 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
 # Apna Supabase / Postgres connection string .env me DATABASE_URL naam se daalna
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./test.db")
 
