@@ -15,7 +15,6 @@ app.add_middleware(
 Base.metadata.create_all(bind=engine)
 
 app.include_router(linkedin_router)
-
 @app.get("/")
 def root():
     return {"message": "Backend running", "docs": "/docs"}
