@@ -174,7 +174,6 @@ No Swagger/manual code-pasting required — everything works with button clicks.
 🔗 [LinkedIn](https://www.linkedin.com/in/nitish-kumar-singh-4802792bb/) · [GitHub](https://github.com/nitishchauhan002)
 
 ---
-
 <div align="center">
 Built as part of the <b>ScaleOn Social Media Automation Tool</b>
 </div>
